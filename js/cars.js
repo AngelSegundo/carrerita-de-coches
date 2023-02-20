@@ -20,12 +20,12 @@ class Car {
     }
 
     moveLeft() {
-        this.carPos.x -= 30
+        this.carPos.x -= 50
         
     }
 
     moveRight() {
-        this.carPos.x += 30
+        this.carPos.x += 50
         // if (this.carPos.x >= this.gameSize.w - this.carSize.w) {
         //     this.turnAround()
         // }
@@ -33,7 +33,7 @@ class Car {
     }
 
     moveUp() {
-        this.carPos.y -= 30
+        this.carPos.y -= 50
         // if (this.camelPos.x <= 0) {
         //     this.turnAround()
         // }
@@ -41,7 +41,7 @@ class Car {
     }
 
     moveDown() {
-        this.carPos.y += 30
+        this.carPos.y += 50
     }
 
 }
